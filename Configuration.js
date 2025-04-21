@@ -14,7 +14,7 @@ function getConfiguration(config) {
 function getEndpoints(deviceAddress, endpoints) {
     endpoints.addEndpoint("1", "Battery", endpointType.voltageSensor);
     var up = endpoints.addEndpoint("2", "Unit Price", endpointType.genericSensor);
-    up.variableTypeId = 1372;
+    up.variableTypeId = 1290;
     endpoints.addEndpoint("3", "Total Used", endpointType.volumeSensor);
     endpoints.addEndpoint("4", "Gas Surplus", endpointType.volumeSensor);
     endpoints.addEndpoint("5", "Gas Balance", endpointType.volumeSensor);
