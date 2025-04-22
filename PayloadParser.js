@@ -167,3 +167,4 @@ function checkReportSync(bytes) {
 function Decoder(bytes, port) {
     return easy_decode(bytes);
 }
+
